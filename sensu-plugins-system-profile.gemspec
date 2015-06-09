@@ -13,7 +13,7 @@ pvt_key = '~/.ssh/gem-private_key.pem'
 
 Gem::Specification.new do |s|
   s.name                   = 'sensu-plugins-system-profile'
-  s.version                = SensuPluginsSystemProfile::VERSION
+  s.version                = SensuPluginsSystemProfile::Version::VER_STRING
   s.authors                = ['Sensu Plugins and contributors']
   s.email                  = '<sensu-users@googlegroups.com>'
   s.homepage               = 'https://github.com/sensu-plugins/sensu-plugins-system-profile'
