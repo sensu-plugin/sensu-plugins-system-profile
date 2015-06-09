@@ -9,7 +9,7 @@
 ## Functionality
 
 ## Files
- * bin/extension-system-profile
+ * bin/extension-system-profile.rb
 
 ## Usage
 
