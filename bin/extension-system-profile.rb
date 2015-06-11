@@ -19,6 +19,9 @@
 # for details.
 module Sensu
   module Extension
+    #
+    # System Profile
+    #
     class SystemProfile < Check
       def name
         'system_profile'
