@@ -17,8 +17,8 @@ Gem::Specification.new do |s|
   s.authors                = ['Sensu Plugins and contributors']
   s.email                  = '<sensu-users@googlegroups.com>'
   s.homepage               = 'https://github.com/sensu-plugins/sensu-plugins-system-profile'
-  s.summary                = ''
-  s.description            = ''
+  s.summary                = 'Sensu plugins for monitoring various systems metrics'
+  s.description            = 'Sensu plugins for monitoring various systems metrics'
   s.license                = 'MIT'
   s.date                   = Date.today.to_s
   s.files                  = Dir.glob('{bin,lib}/**/*') + %w(LICENSE README.md CHANGELOG.md)
