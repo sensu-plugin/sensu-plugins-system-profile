@@ -17,7 +17,6 @@
 #
 # Released under the same terms as Sensu (the MIT license); see LICENSE
 # for details.
-
 module Sensu
   module Extension
     class SystemProfile < Check
@@ -135,7 +134,7 @@ module Sensu
                   data.each do |metric, value|
                     next if value.nil?
                     diff = value - previous[key][metric]
-                    used = sprintf('%.02f', (diff / cpu_total_diff.to_f) * 100)
+                    used = format('%.02f', (diff / cpu_total_diff.to_f) * 100)
                     add_metric(key, metric, used)
                   end
                 else
